@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sachin Khatri</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Add this line to your HTML file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/logo-one-removebg.png" alt="" onclick="showHomeSection()">
+        <div class="social-media">
+            <a href="https://www.facebook.com/sachin.khatri.908/" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/sachin-khatri-a155271a3/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/SachinKhatri53" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <div class="sidebar">
+        <button id="about-button" onclick="showAboutSection()">About</button>
+
+        <button id="experience-button" onclick="showExperienceSection()">Experience</button>
+        <button id="project-button" onclick="showProjectSection()">Project</button>
+        <button id="contact-button" onclick="showContactSection()">Contact</button>
+    </div>
+    <div class="content">
+
+        <!-- Home -->
+
+        <div id="home-content">
+            <div style="width: 30vw;">
+                <h2>Hello, I'm<br><span style="color: #4593F3;">Sachin</span> <span
+                        style="color: #e5515f;">Khatri</span>
+                </h2>
+                <h3>Software Developer</h3>
+                <p> I am excited to contribute my knowledge and adaptability to a dynamic team, learn from experienced
+                    professionals, and tackle new challenges in the field. </p>
+                <button onclick="openResume()">Resume</button>
+            </div>
+        </div>
+
+        <!-- About -->
+
+        <div id="about-content">
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-description">
+                        I am excited to leverage the valuable experience I gained during my
+                        software development traineeship. Throughout this journey, I've
+                        strengthened my analytical skills and practical knowledge. With a
+                        strong academic foundation and a proven ability to adapt and
+                        thrive, I am confident in my ability to contribute effectively to
+                        software development projects in a different organizational setting.
+                        I look forward to exploring new challenges and opportunities while
+                        continuing to pursue my passion for software development.   
+                        <button onclick="openResume()">Resume</button>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Skills</h3>
+                        <div class="skill-list">
+                            <img src="images/c-sharp.png" alt="">
+                            <img src="images/java.png" alt="">
+                            <img src="images/php.png" alt="">
+                            <img src="images/python.png" alt="">
+                            <img src="images/java-script.png" alt="">
+                            <img src="images/html.png" alt="">
+                            <img src="images/css3.png" alt="">
+                            <img src="images/bootstrap.png" alt="">
+                            <img src="images/wpf.png" alt="">
+                            <img src="images/asp.net.png" alt="">
+                            <img src="images/nodejs.png" alt="">
+                            <img src="images/expressjs" alt="">
+                            <img src="images/sql-server.png" alt="">
+                            <img src="images/mongodb.png" alt="">
+                            <img src="images/mysql.png" alt="">
+                            <img src="images/firebase.png" alt="">
+                            <img src="images/android.png" alt="">
+                            <img src="images/git.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="profile-pic">
+                        <img src="images/IMG_0916_Original.jpg" alt="">
+                    </div>
+                    <div>
+                    <h3>Education</h3>
+                    <h4>University of Sunderland</h4>
+                    <p><span>BSc (Hons) Computer Systems Engineering</span>
+                        <br>(January 2022 - October 2022)
+                    </p>
+                    <h4>International School of Management & Technology</h4>
+                    <p><span>Btec HND in Computing</span><br>
+                        (November 2018 - November 2021)
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+
+        <div id="experience-content">
+            <div class="experience-content">
+                <div class="experience">
+                    <p><span>.NET Trainee</span>
+                        (June 2023 - September 2023)
+                    </p>
+                    <h4>Bajra Technologies Pvt. Ltd.</h4>
+                    <ul class="role-item">
+                        <li>Learnt basics of HTML, CSS and JavaScript and developed a Road
+                            Racer game.</li>
+                        <li>Learnt C# and WPF framework. Developed a WPF application
+                            using MVVM architecture.</li>
+                    </ul>
+                    <hr style="border-width: 2px;">
+                </div>
+                <div class="certification">
+                    <h3>Courses & Certifications</h3>
+                    <ul class="course-item">
+                        <li>Traineeship Programme in
+                            .NET: <span>Bajra Technologies</span></li>
+                        <li>PHP for Beginners - Become a
+                            PHP Master - CMS Project
+                            (certificate): <span>Udemy</span></li>
+                        <li>Python Programming
+                            (certificate): <span>Broadway
+                                Infosys Nepal</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project -->
+
+        <div id="project-content">
+            <div class="project-content">
+                <div class="project">
+                    <img src="images/mms.png" alt="" style="background:aliceblue">
+                    <p style="color: #e5515f;">Medication Management System
+                        <a href="https://github.com/SachinKhatri53/Management-System-Management" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </p>
+                    <div class="project-description">
+                        <p>Medication Management System is a user-friendly and efficient tool that
+                            helps individuals manage their medications with precision, ensuring they
+                            adhere to their prescribed regimens while receiving timely reminders and maintaining a
+                            comprehensive medication history for themselves and their healthcare providers along with
+                            Dark Mode.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/road-racer.png" alt="">
+                    <p style="color: #e5515f;">Road Racer
+                        <a href="https://github.com/SachinKhatri53/Road-Racer" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </p>
+                    <div class="project-description">
+                        <p>Players control a vehicle, evading obstacles and other vehicles while collecting coins for
+                            points.
+                            The game includes shooting mechanics, allowing players to fire projectiles at obstacles or
+                            rivals.
+                            It has collision detection to track interactions, and a scoring system that displays the
+                            player's high score, fostering competition and engagement. </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <center><img src="images/jj.png" style="width: 50px;" alt=""></center>
+                    <p style="color: #e5515f;">Journey Journal
+                        <a href="https://github.com/SachinKhatri53/Journey-Journal" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </p>
+                    <div class="project-description">
+                        <p>An android application developed using Java that stores and manages journey records.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/phonebook.png" alt="">
+                    <p style="color: #e5515f;">Phonebook
+                        <a href="https://github.com/SachinKhatri53/Phonebook-node.js" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </p>
+                    <div class="project-description">
+                        <p>A phonebook application developed using Node.js that offers a comprehensive set of features.
+                            Users can effortlessly add, browse, modify, and remove contact entries, providing them with
+                            a versatile tool for managing their contacts.
+                            With its intuitive search and display capabilities, users can efficiently navigate their
+                            contact list, making finding and updating contact details a breeze.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/foss.png" alt="">
+                    <p style="color: #e5515f;">Fun Olympic Streaming Service
+                        <a href="https://github.com/SachinKhatri53/PHPFunOlympic" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </p>
+                    <div class="project-description">
+                        <p>The system features two distinct user roles: User and Admin.
+                            Users can register with email verification, log in, access live videos, videos, fixtures,
+                            news, and a gallery.
+                            They can also engage with content by liking, commenting, and sharing videos, with password
+                            reset and account management options available.
+                            Admins have extensive control, including adding, updating, and deleting content, activating
+                            or deactivating user accounts, and managing password change requests.
+                            This comprehensive system ensures a user-friendly experience while enabling efficient
+                            content management and security control.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/sors.png" alt="">
+                    <p style="color: #e5515f;">Secured Online Registration System
+                        <a href="https://github.com/SachinKhatri53/SecuredOnlineRegistrationSystemUsingPHP"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </p>
+                    <div class="project-description">
+                        <p>It collects user registration details where user is activated only after verifying his/her
+                            email.
+                            While signing in, user has to pass two factor authentication.
+                            It contains password policies such as password combination(8 characters, alphanumeric,
+                            upper-lower case and special characters).
+                            Other functionalities include password expiry, no repetition of password, etc.
+                            The backend programming PHP has been used whereas UI is supported by HTML5, CSS3, Bootstrap4
+                            and JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+
+        <div id="contact-content">
+            <div class="flex-container">
+                <div class="gap"></div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="form-input">
+                            <label for="Fullname">Fullname</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-input">
+                            <label for="Email">Email</label>
+                            <input type="email">
+                        </div>
+                        <div class="form-input">
+                            <label for="Subject">Subject</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-input">
+                            <label for="Message">Message</label>
+                            <textarea rows="4"></textarea>
+                        </div>
+                        <div class="form-input">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="gap"></div>
+                <div class="contact-address">
+                    <div>
+                        <h4>Phone Number:</h4>
+                        <a href="tel:+9779860673427">+977 9860673427</a>
+                        <h4>Email:</h4>
+                        <a href="mailto: sachinkhatri53@gmail.com">sachinkhatri53@gmail.com</a>
+                        <h4>Address:</h4>
+                        <p>Kharitar, Nagarjun-6,<br>
+                            Kathmandu
+                            44600,<br>Nepal
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
