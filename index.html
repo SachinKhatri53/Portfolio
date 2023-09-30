@@ -7,6 +7,7 @@
     <title>Portfolio - Sachin Khatri</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
     <!-- Add this line to your HTML file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -25,7 +26,6 @@
     </div>
     <div class="sidebar">
         <button id="about-button" onclick="showAboutSection()">About</button>
-
         <button id="experience-button" onclick="showExperienceSection()">Experience</button>
         <button id="project-button" onclick="showProjectSection()">Project</button>
         <button id="contact-button" onclick="showContactSection()">Contact</button>
@@ -35,7 +35,7 @@
         <!-- Home -->
 
         <div id="home-content">
-            <div style="width: 30vw;">
+            <div class="home-content">
                 <h2>Hello, I'm<br><span style="color: #4593F3;">Sachin</span> <span
                         style="color: #e5515f;">Khatri</span>
                 </h2>
@@ -87,9 +87,13 @@
                     </div>
                 </div>
                 <div class="about-right">
+                    <center>
                     <div class="profile-pic">
+                        
                         <img src="images/IMG_0916_Original.jpg" alt="">
+                    
                     </div>
+                </center>
                     <div>
                     <h3>Education</h3>
                     <h4>University of Sunderland</h4>

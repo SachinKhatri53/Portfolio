@@ -73,7 +73,7 @@ body {
 
 .content {
   margin-left: 250px;
-  padding: 1px 16px;
+  /* padding: 1px 16px; */
 }
 
 .content h2 {
@@ -90,7 +90,9 @@ body {
   background-color: white;
   border-radius: 10px;
 }
-
+.home-content{
+  width: 30vw;
+}
 #home-content h2 {
   font-size: 50px;
   text-align: end;
@@ -205,7 +207,7 @@ flex-direction: column;
   color: #4593F3;
 }
 .experience p{
-  font-weight: 16px;
+  font-size: 16px;
   font-weight: bold;
 }
 .experience h4{
@@ -238,6 +240,7 @@ flex-direction: column;
   padding: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
+  overflow-y: auto;
 }
 
 .project {
@@ -266,6 +269,7 @@ flex-direction: column;
 .flex-container {
   padding: 50px;
   display: flex;
+  height: 70vh;
 }
 
 .contact-form,
@@ -325,32 +329,3 @@ flex-direction: column;
   border-radius: 10px;
 }
 
-@media screen and (max-width: 450px) {
-  .sidebar {
-    width: 150px;
-    height: 60vh;
-  }
-
-  .sidebar button {
-    font-size: 18px;
-    padding: 20px 10px;
-  }
-
-  .content {
-    margin-left: 150px;
-  }
-
-  .logo {
-    padding: 10px;
-  }
-
-  .logo img {
-    width: 100px;
-  }
-
-  .social-media i {
-    font-size: 20px;
-    margin: 10px;
-  }
-
-}
